@@ -1,0 +1,196 @@
+body {
+  font-family: 'Nunito', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  top: 0;
+  left: 0;
+  opacity: 0.7;
+}
+
+
+.dark-mode {
+  color: white;
+}
+
+
+.productCard {
+  position: relative;
+  width: 350px;
+  background-color: white;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  margin: 20px auto; 
+ 
+}
+
+.icons {
+  position: absolute;
+  top: 250px; 
+  left: 10px;
+}
+
+.icons i {
+  font-size: 20px;
+  margin-right: 10px;
+  color: orange;
+  display: block;
+}
+
+.icons i:first-child {
+  margin-bottom: 5px;
+}
+
+.discountBox {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+
+.dark-mode .discountBox {
+  background-color: black;
+  color: white;
+}
+
+.dark-mode .icons i {
+  color: white;
+}
+
+
+.dark-mode .productCard,
+.dark-mode h1,
+.dark-mode p,
+.productCard p {
+  color: white;
+}
+
+
+
+
+
+.productCard .imageBox {
+  width: 100%;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.productCard .imageBox img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 25px;
+  object-fit: cover;
+}
+
+.productCard h1 {
+  font-size: 24px;
+  color: black;
+  margin-top: 20px;
+}
+
+.productCard p {
+  font-size: 16px;
+  color: #333;
+  margin: 10px 0;
+  text-align: left;
+}
+
+.features {
+  font-size: 14px;
+  text-align: left;
+  margin-top: 10px;
+  white-space: nowrap;
+}
+
+.feature-button {
+  border: 1px solid var(--gold-color);
+  outline: none;
+  padding: 2px 5px;
+  border-radius: 3px;
+  background-color: var(--gold-color);
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.feature-button:hover {
+  background-color: black;
+}
+
+.price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.cost {
+  font-size: 20px;
+  font-weight: 700;
+  color: goldenrod;
+}
+
+.delivery_charge {
+  font-size: 14px;
+}
+
+.ratings {
+  font-size: 18px;
+  color: #FFD700;
+}
+
+.star {
+  color: #FFD700;
+}
+
+.star-empty {
+  color: #ccc;
+}
+
+.toggle-buttons {
+  display: flex;
+  justify-content: flex-start; 
+  margin-top: 20px;
+}
+
+.toggle-buttons button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 5px; 
+}
+
+.dark-mode-toggle {
+  background-color: black;
+}
+
+.light-mode-toggle {
+  background-color: red;
+}
+.rating-text {
+  margin-left: 5px;
+  font-weight: bold;
+  color: #FFD700;
+}
+
+
